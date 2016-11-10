@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+
+body {
+	margin : 0;
+	padding : 0;
+	background-color : #212121;
+	font-family: 'Indie Flower', cursive;
+}
+
+h1, div, p {
+	text-align : center;
+	color : #C7D2F2;
+}
+
+h1 {
+ font-size : 45px;
+}
+
+p {
+	font-size : 35px;
+}
+
+table {
+	margin : 30px auto 20px;
+	border-collapse : collapse;
+	
+}
+
+td {
+	width : 100px;
+	height : 100px;
+	border : solid 1px #C7D2F2;
+	background-color : #6F8FC1;
+}
+
+.vide {
+	background-image : url("images/vide.png");
+}
+
+.croix {
+	background-image : url("images/croix.png");
+}
+
+.rond {
+	background-image : url("images/rond.png");
+}
+
+button {
+	border : solid 1px #6F8FC1;
+	background-color : #C7D2F2;
+	color : #212121;
+	font-family: 'Indie Flower', cursive;
+	width : 300px;
+	height : 70px;
+	font-size : 25px;
+}
